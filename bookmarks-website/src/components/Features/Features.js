@@ -1,6 +1,7 @@
 import React from 'react'
 
 import styles from './Features.module.css'
+import { styleConcat } from '@/utils'
 
 function Features() {
     return (
@@ -10,7 +11,7 @@ function Features() {
                 <div></div>
             </div>
 
-            <div className={styles.feature}>
+            <div className={styleConcat(styles.feature, styles.feature_reverse)}>
                 <h4>Create categories</h4>
                 <div></div>
             </div>
@@ -20,7 +21,7 @@ function Features() {
                 <div></div>
             </div>
 
-            <div className={styles.feature}>
+            <div className={styleConcat(styles.feature, styles.feature_reverse)}>
                 <h4>Built-in photoeditor</h4>
                 <div></div>
             </div>

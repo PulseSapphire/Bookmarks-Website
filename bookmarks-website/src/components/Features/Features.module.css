@@ -1,0 +1,31 @@
+.features {
+    height: 1286px;
+    background-color: white;
+}
+
+.feature {
+    width: 80%;
+
+    display: flex;
+    justify-content: space-between;
+
+    margin: 120px auto auto;
+}
+
+.feature_reverse h4 {
+    order: 2;
+}
+
+.feature div {
+    width: 400px;
+    height: 200px;
+
+    background: #000;
+}
+
+.feature:nth-child(1) h4 {
+    background: linear-gradient(91deg, #F093FB 0%, #F5576C 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
