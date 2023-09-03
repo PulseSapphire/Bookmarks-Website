@@ -1,0 +1,43 @@
+.header {
+    width: 100%;
+    height: 200px;
+
+    background-color: #000;
+}
+
+.logo_container {
+    position: relative;
+
+    width: 163px;
+    height: 44px;
+
+    top: 50px;
+    left: 161px;
+}
+
+.logo_container img {
+    position: absolute;
+
+    left: -9px;
+    top: 2px;
+}
+
+.logo_container h1 {
+    position: absolute;
+
+    top: 15px;
+    left: 49px;
+
+    height: 13px;
+
+    color: #FFF;
+    font-family: 'Azonix';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.logo_container h1 span {
+    font-size: 8px;
+}
