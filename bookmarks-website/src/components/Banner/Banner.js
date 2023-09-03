@@ -7,7 +7,8 @@ import Image from 'next/image'
 function Banner() {
     return (
         <div className={styles.banner}>
-            <h1>Your favorites all in one place...</h1>
+            <h2>Your favorites <br />
+                all in one place...</h2>
             <p>The best and the most customizable bookmark manager on the market.</p>
 
             <div className={styles.ipad}>
