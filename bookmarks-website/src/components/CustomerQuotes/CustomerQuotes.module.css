@@ -1,3 +1,36 @@
 .container {
-    background-color: orange;
+    background-color: #000;
+}
+
+.profileIcon {
+    position: relative;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: fit-content;
+}
+
+.profileIcon svg:nth-child(2) {
+    position: absolute;
+}
+
+.container h2 {
+    position: relative;
+
+    top: 60px;
+
+    margin: auto;
+
+    width: 710px;
+    height: 130px;
+
+    color: #FFF;
+    text-align: center;
+    font-family: Plus Jakarta Sans;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 70px;
 }

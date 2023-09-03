@@ -34,22 +34,24 @@ function CustomerQuotes() {
         <div className={styles.container}>
             <h2>What our customers are saying</h2>
 
-            <div className={styles.card}>
-                {profileIcon}
-                <h4>username</h4>
-                <p>"asjdnsadjnsadikjasdfbjifdibjdfjjnkjdfnksdnfksndfooasidjoikasdlknnasdljknsdakjnuigiuhefihdfsibjhfsdbjhifbhklgrfbhklb"</p>
-            </div>
+            <div className={styles.card_container}>
+                <div className={styles.card}>
+                    {profileIcon}
+                    <h4>username</h4>
+                    <p>"asjdnsadjnsadikjasdfbjifdibjdfjjnkjdfnksdnfksndfooasidjoikasdlknnasdljknsdakjnuigiuhefihdfsibjhfsdbjhifbhklgrfbhklb"</p>
+                </div>
 
-            <div className={styles.card}>
-                {profileIcon}
-                <h4>username</h4>
-                <p>"asjdnsadjnsadikjasdfbjifdibjdfjjnkjdfnksdnfksndfooasidjoikasdlknnasdljknsdakjnuigiuhefihdfsibjhfsdbjhifbhklgrfbhklb"</p>
-            </div>
+                <div className={styles.card}>
+                    {profileIcon}
+                    <h4>username</h4>
+                    <p>"asjdnsadjnsadikjasdfbjifdibjdfjjnkjdfnksdnfksndfooasidjoikasdlknnasdljknsdakjnuigiuhefihdfsibjhfsdbjhifbhklgrfbhklb"</p>
+                </div>
 
-            <div className={styles.card}>
-                {profileIcon}
-                <h4>username</h4>
-                <p>"asjdnsadjnsadikjasdfbjifdibjdfjjnkjdfnksdnfksndfooasidjoikasdlknnasdljknsdakjnuigiuhefihdfsibjhfsdbjhifbhklgrfbhklb"</p>
+                <div className={styles.card}>
+                    {profileIcon}
+                    <h4>username</h4>
+                    <p>"asjdnsadjnsadikjasdfbjifdibjdfjjnkjdfnksdnfksndfooasidjoikasdlknnasdljknsdakjnuigiuhefihdfsibjhfsdbjhifbhklgrfbhklb"</p>
+                </div>
             </div>
         </div>
     )
