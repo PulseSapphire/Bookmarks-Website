@@ -1,0 +1,64 @@
+.container {
+    height: 400px;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.sub_container {
+    position: relative;
+
+    width: fit-content;
+
+    display: flex;
+    align-items: flex-end;
+}
+
+.sub_container img {
+    object-fit: cover;
+    transform: rotateY(180deg);
+}
+
+.info_container {
+    position: relative;
+    bottom: 172px;
+    margin-left: -99px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 9px;
+}
+
+.info_container button {
+    width: 100px;
+    height: 40px;
+
+    border-radius: 15px;
+
+    border: 0;
+    background-color: #6528F7;
+
+    color: #FFF;
+    text-align: center;
+    font-family: Plus Jakarta Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.info_container h2 {
+    width: 469px;
+    height: 100px;
+
+    color: #000;
+    text-align: center;
+    font-family: Plus Jakarta Sans;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 42px;
+}
