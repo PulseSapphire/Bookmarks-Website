@@ -1,5 +1,9 @@
 import React from 'react'
 
+import styles from './Footer.module.css'
+
+import Image from 'next/image'
+
 function Footer() {
     return (
         <div>
@@ -24,6 +28,7 @@ function Footer() {
                     <p>Privacy policy</p>
                 </div>
             </div>
+
             <p>© 2023 SkyLinker. All right reserved.</p>
         </div>
     )

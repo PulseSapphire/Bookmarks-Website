@@ -5,6 +5,7 @@ import Banner from '@/components/Banner/Banner'
 import Features from '@/components/Features/Features'
 import CustomerQuotes from '@/components/CustomerQuotes/CustomerQuotes'
 import CommunityJoinMessage from '@/components/CommunityJoinMessage/CommunityJoinMessage'
+import Footer from '@/components/Footer/Footer'
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <Features />
       <CustomerQuotes />
       <CommunityJoinMessage />
+      <Footer />
     </div>
   )
 }
