@@ -1,19 +1,9 @@
 .container {
-    background-color: #000;
-}
-
-.profileIcon {
     position: relative;
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    height: 720px;
 
-    width: fit-content;
-}
-
-.profileIcon svg:nth-child(2) {
-    position: absolute;
+    background-color: #000;
 }
 
 .container h2 {
@@ -33,4 +23,44 @@
     font-style: normal;
     font-weight: 800;
     line-height: 70px;
+}
+
+.card_container {
+    width: 80%;
+
+    display: flex;
+    justify-content: space-between;
+
+    left: 0;
+    right: 0;
+    margin: auto;
+
+    position: absolute;
+    top: 260px;
+}
+
+.card {
+    width: 300px;
+    height: 400px;
+
+    border-radius: 10px;
+    background: #191919;
+}
+
+.card p {
+    width: 228px;
+}
+
+.profileIcon {
+    position: relative;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: fit-content;
+}
+
+.profileIcon svg:nth-child(2) {
+    position: absolute;
 }
