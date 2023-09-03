@@ -1,0 +1,24 @@
+.banner {
+    width: 100%;
+    height: 824px;
+
+    background-color: orange;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    overflow: hidden;
+}
+
+.ipad {
+    position: relative;
+
+    top: 320px;
+}
+
+.ipad img:nth-child(2) {
+    position: absolute;
+    top: 22px;
+    left: 29px;
+}
