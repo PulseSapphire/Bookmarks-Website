@@ -47,14 +47,35 @@
     line-height: normal;
 }
 
-.ipad {
+.ipad_container {
     position: absolute;
 
     top: 320px;
+}
+
+.ipad {
+    position: relative;
 }
 
 .ipad img:nth-child(2) {
     position: absolute;
     top: 22px;
     left: 29px;
+}
+
+.glow {
+    position: absolute;
+
+    top: 80px;
+
+    left: 0;
+    right: 0;
+    margin: auto;
+
+    width: 851px;
+    height: 635px;
+
+    border-radius: 851px;
+    background: #FE7BE5;
+    filter: blur(125px);
 }
